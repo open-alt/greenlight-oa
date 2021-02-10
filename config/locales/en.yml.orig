@@ -166,13 +166,13 @@ en:
     room_configuration:
       title: Room Configuration
       mute:
-        info: Automatically mutes the user when they join the Open-Alt meeting
+        info: Automatically mutes the user when they join the BigBlueButton meeting
       require_moderator:
-        info: Prompts the moderator of the Open-Alt meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
+        info: Prompts the moderator of the BigBlueButton meeting when a user tries to join. If the user is approved, they will be able to join the meeting.
       allow_any:
         info: Allows any user to start the meeting at any time. By default, only the room owner can start the meeting.
       all_moderator:
-        info: Gives all users moderator privileges in Open-Alt Conferencing Platform when they join the meeting.
+        info: Gives all users moderator privileges in BigBlueButton when they join the meeting.
       recordings:
         info: Allows room owners to specify whether they want the option to record a room or not. If enabled, the moderator must still click the "Record" button once the meeting has started.
       options:
@@ -220,7 +220,7 @@ en:
         valid: Valid
       title: Manage Users
   add_to_google_calendar: "Add to Google Calendar"
-  bigbluebutton: Open-Alt - Web Conferencing Platform
+  bigbluebutton: BigBlueButton
   bigbluebutton_exception: Oops, there was an error when starting the meeting!
   cancel: Cancel
   cookies:
@@ -322,7 +322,7 @@ en:
       start: Start searching...
   landing:
     about: "%{href} is a simple front-end for your BigBlueButton open-source web conferencing server. You can create your own rooms to host sessions, or join others using a short and convenient link."
-    welcome: Welcome to Open-Alt's Web Conferencing Platform.
+    welcome: Welcome to BigBlueButton.
     video: Watch our tutorial on using Greenlight
     upgrade: Show me how to upgrade to 2.0!
     version: We've released a new version of Greenlight, but your database isn't compatible.
@@ -337,10 +337,10 @@ en:
         signin: To access your personal rooms, click the button below and sign in.
         signin_link: Sign In
         signup:
-          info: A new user has signed up to use Open-Alt's Web Conferencing Platform.
-          more-info: To allow this user to access Open-Alt's Web Conferencing Platform you must approve their account in organization settings.
+          info: A new user has signed up to use Greenlight.
+          more-info: To allow this user to access Greenlight you must approve their account in organization settings.
           admins_link: Visit the Organization Page
-          subject: New Open-Alt Conferencing User Sign Up
+          subject: New Greenlight User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
         subject: Account Approved
         username: Your username is %{email}.
@@ -354,11 +354,11 @@ en:
         signup_info: To signup using your email, click the button below and follow the steps.
         signup_link: Sign Up
         signup:
-          info: A user that was invited has signed up to use Open-Alt's Web Conferencing Platform.
+          info: A user that was invited has signed up to use Greenlight.
           admins_link: Visit the Organization Page
-          subject: New Open-Alt Conferencing User Sign Up
+          subject: New Greenlight User Sign Up
           username: The user signed up with the name %{name} and the email %{email}.
-        subject: Invitation to join Open-Alt's Web Conferencing Platform
+        subject: Invitation to join BigBlueButton
         username: Your username is %{email}.
       password_reset:
         title: 'Password reset'
@@ -553,7 +553,7 @@ en:
       fail: Failed to delete room (%{error})
     enter_the_access_code: Enter the room's access code
     invalid_provider: You have entered an invalid url. Please check the url and try again.
-    invitation_description: You have been invited to join %{name} using Open-Alt's Web Conferencing Platform. To join, click the link above and enter your name.
+    invitation_description: You have been invited to join %{name} using BigBlueButton. To join, click the link above and enter your name.
     invited: You have been invited to join
     recording_present: I acknowledge that this session is going to be recorded. This may include my voice and video if enabled.
     invite_participants: Invite Participants
